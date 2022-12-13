@@ -1,0 +1,68 @@
+body {
+  background-color: #0a0e21;
+}
+
+.titulo {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  color: white;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.fondoItem {
+  background-color: rgba(255, 17, 19, 0.1568627451);
+  height: 130px;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-color {
+  background-color: #ff3366;
+  border-color: #ff3366;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.sexo {
+  font-size: 40px;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.stilonum {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: -30px;
+}
+
+#cm {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+.form-range {
+  padding: 0 20px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: #ff3366;
+}
+
+.sumaResta {
+  cursor: pointer;
+  background-color: rgba(255, 76, 79, 0.368627451);
+  padding: 7px;
+  border-radius: 15px;
+  margin-left: 3px;
+}/*# sourceMappingURL=styles.css.map */

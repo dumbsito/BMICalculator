@@ -1,0 +1,20 @@
+.container .col-lg-6 {
+  margin-left: 280px;
+  margin-top: 20px;
+}
+.container h1 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.container .fondoItem {
+  height: 420px;
+}
+.container .contenedor {
+  font-size: 130px;
+  margin-top: -50px;
+}
+.container button {
+  width: 40%;
+  margin-left: 330px;
+}/*# sourceMappingURL=resultado.component.css.map */

@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>Resultado</h1>
+    <div class="col-lg-6">
+        <div class="fondoItem  text-center">
+          <div class="sp"> 
+ <span class="" [class]="(bmi>=19)?'verde':'rojo'"
+                
+               >{{resultado}}</span>
+             </div>
+            <div class="contenedor">     
+             {{bmi}} 
+            </div>
+           <p>{{interpretacion}}</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <button class="btn btn-color btn-primary btn-lg btn-block" (click)="Calcular()">RE-CALCULAR</button>
+            </div>
+    </div>
+
