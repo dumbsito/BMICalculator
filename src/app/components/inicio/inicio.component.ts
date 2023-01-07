@@ -8,8 +8,7 @@ import { Route, Router } from '@angular/router';
 })
 export class InicioComponent {
 
-mas:boolean=false;
-fem:boolean=false;
+
   constructor(private router:Router){
 
   }
@@ -19,6 +18,10 @@ fem:boolean=false;
   genero:string=""
 
  
+  status: boolean = false;
+clickEvent(){
+    this.status = !this.status;       
+}
 
 
 cambiarAltura(e:any){
@@ -26,11 +29,11 @@ this.altura=e.target.value;
 }
 setMasculino(){
  this.genero="masculino"
- this.mas=true
+
 }
 setFemenino(){
   this.genero="femenino"
-  this.fem=true
+ 
 }
 calcular(){
 

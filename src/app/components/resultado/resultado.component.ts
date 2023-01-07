@@ -17,14 +17,14 @@ interpretacion:string=""
   ngOnInit(): void {
    
   if(this.bmi>=25){
-    this.resultado="Exceso de peso"
-    this.interpretacion="Tienes un peso corporal superior al normal. Intente hacer mas ejercicio"
+    this.resultado="Over weight"
+    this.interpretacion="You have a higher than normal body weight. try to exercise more."
   }else if(this.bmi>=19){
     this.resultado="Normal"
-    this.interpretacion="Tienes un peso corporal normal. Buen trabajo."
+    this.interpretacion="You have a normal body weight. Nice job."
   }else{
-    this.resultado="Bajo peso"
-    this.interpretacion="Tienes un peso corporal mas bajo de lo normal. Puedes comer un poco mas"
+    this.resultado="Under weight"
+    this.interpretacion="You have a lower body weight than normal. you can eat a little more."
   }
 
   }
